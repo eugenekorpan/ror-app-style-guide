@@ -13,6 +13,7 @@ Otherwise the variable `get_UserProfile` will be the smallest surprise along all
 First reed [Ruby Style Guide] (https://github.com/bbatsov/ruby-style-guide)
 
 * Use double quotes for strings only when you use string interpolation
+
     ```Ruby
     # bad
     gem "linkedin"
@@ -22,6 +23,7 @@ First reed [Ruby Style Guide] (https://github.com/bbatsov/ruby-style-guide)
     ```
     
 * Don't use string interpolation when you need to concatinate string variables
+
     ```Ruby
     # bad
     buttons = "#{ok_button} #{cancel_button} #{abort_button}"
@@ -31,6 +33,7 @@ First reed [Ruby Style Guide] (https://github.com/bbatsov/ruby-style-guide)
     ``` 
   
 * Use positive conditions whenever it's possible
+    
     ```Ruby
     # bad
     if !requests.any?
@@ -43,6 +46,7 @@ First reed [Ruby Style Guide] (https://github.com/bbatsov/ruby-style-guide)
 # Model
 
 * Don't use `get_`, `set_` prefixes in method names
+    
     ```Ruby
     # bad
     def get_full_name
@@ -54,6 +58,7 @@ First reed [Ruby Style Guide] (https://github.com/bbatsov/ruby-style-guide)
 # Rspec
 
 * Avoid using global `let`s. Split big scopes of specs to small independend `context`s.
+    
     ```Ruby
     # bad
     describe User do
@@ -92,9 +97,9 @@ First reed [Ruby Style Guide] (https://github.com/bbatsov/ruby-style-guide)
 
 * Use CamelCase code style 
     ```Javascript
-    # bad
+    // bad
     function find_user_profile()
 
-    # good
+    // good
     function findUserProfile()
     ```
