@@ -10,6 +10,7 @@ Every project may have it's own code style but all developers on the project mus
 Otherwise the variable `get_UserProfile` will be the smallest surprise along all those things you find in the code.
 
 # Ruby
+First reed [Ruby Style Guide] (https://github.com/bbatsov/ruby-style-guide)
 
 * Use double quotes for strings only when you use string interpolation
 
@@ -26,7 +27,7 @@ Otherwise the variable `get_UserProfile` will be the smallest surprise along all
 
     ```Ruby
     # bad
-    buttons = "#{ok_button} {cancel_button} {abort_button}"
+    buttons = "#{ok_button} #{cancel_button} #{abort_button}"
     
     # good
     buttons = [ok_button, cancel_button, abort_button].join(" ")
