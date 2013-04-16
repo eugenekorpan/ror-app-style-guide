@@ -9,3 +9,89 @@ The same with the ROR app. Image Crane, Pike and Crayfish began coding. What cod
 Every project may have it's own code style but all developers on the project must follow same conventions.
 Otherwise the variable `get_UserProfile` will be the smallest surprise along all those things you find in the code.
 
+# Ruby
+
+* Use double quotes for strings only when you use string interpolation
+
+    ```Ruby
+    # bad
+    gem "linkedin"
+    
+    # good
+    gem 'linkedin'
+    ```
+    
+* Use string interpolation
+  
+* Use positive conditions whenever it's possible
+
+    ```Ruby
+    # bad
+    if !requests.any?
+    
+    # good
+    if requests.empty?
+    
+# Model
+
+* Don't use `get_`, `set_` prefixes in method names
+    
+    ```Ruby
+    # bad
+    def get_full_name
+
+    # good
+    def full_name
+    ```
+    
+# Rspec
+
+* Avoid using global `let`s. Split big scopes of specs to small independend `context`s.
+    
+    ```Ruby
+    # bad
+    describe User do
+      let(:user) { FactoryGirl.create(:user) }
+      let(:user2) { FactoryGirl.create(:invalid_user) }
+    
+      it 'should return valid' do
+        expect(User.valid).to eql(user)
+      end
+    
+      it 'should return invalid users' do
+        expect(User.invalid).to eql(user2)
+      end
+    end
+
+    # good
+    describe User do
+      context '.valid' do
+        let(:user) { FactoryGirl.create(:user) }
+        
+        it 'should find valid user' do
+          expect(User.valid).to eql(user)
+        ebd
+      end
+      
+      context '.invalid' do
+        let(:user) { FactoryGirl.create(:invalid_user) }
+        
+        it 'should return invalid users' do
+          expect(User.invalid).to eql(user2)
+        end
+      end
+    ```
+      
+      
+# Javascript
+
+* Use CamelCase code style
+  
+    ```Javascript
+    # bad
+    function find_user_profile()
+
+    # good
+    function findUserProfile()
+    ```
+
