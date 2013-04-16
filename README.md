@@ -92,10 +92,23 @@ First reed [Ruby Style Guide] (https://github.com/bbatsov/ruby-style-guide)
         end
       end
     ```      
+    
+# View
+
+* Don't use `#` for `href` in links
+    
+    ```Ruby
+    # bad
+    = link_to 'Edit', '#'
+
+    # good
+    = link_to 'Edit', 'javascript:void(false);'
+    
       
 # Javascript
 
 * Use CamelCase code style 
+
     ```Javascript
     // bad
     function find_user_profile()
