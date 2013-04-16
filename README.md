@@ -21,6 +21,7 @@ Otherwise the variable `get_UserProfile` will be the smallest surprise along all
     gem 'linkedin'
     ```
     
+    
 * Don't use string interpolation when you need to concatinate string variables
 
     ```Ruby
@@ -29,6 +30,8 @@ Otherwise the variable `get_UserProfile` will be the smallest surprise along all
     
     # good
     buttons = [ok_button, cancel_button, abort_button].join(" ")
+    ```
+  
   
 * Use positive conditions whenever it's possible
 
@@ -38,6 +41,8 @@ Otherwise the variable `get_UserProfile` will be the smallest surprise along all
     
     # good
     if requests.empty?
+    ```
+    
     
 # Model
 
@@ -50,6 +55,7 @@ Otherwise the variable `get_UserProfile` will be the smallest surprise along all
     # good
     def full_name
     ```
+    
     
 # Rspec
 
@@ -101,4 +107,3 @@ Otherwise the variable `get_UserProfile` will be the smallest surprise along all
     # good
     function findUserProfile()
     ```
-
