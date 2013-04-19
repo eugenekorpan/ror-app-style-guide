@@ -130,7 +130,7 @@ First reed [Ruby Style Guide] (https://github.com/bbatsov/ruby-style-guide)
     CoachCatalog.applyFilter = function() { ... }
     ```
     
-* Put space before curly bracket`
+* Put space before curly bracket
 
     ```Javascript
     // bad
@@ -142,7 +142,7 @@ First reed [Ruby Style Guide] (https://github.com/bbatsov/ruby-style-guide)
 
 # CSS
 
-* Put space before curly bracket`
+* Put space before curly bracket
 
     ```css
     /* bad */
