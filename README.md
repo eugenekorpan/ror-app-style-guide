@@ -45,7 +45,7 @@ First reed [Ruby Style Guide] (https://github.com/bbatsov/ruby-style-guide)
     
 # Model
 
-* Don't use `get_`, `set_` prefixes in method names
+* Don't use `get_`, `set_` prefixes in getters/setters method names
     
     ```Ruby
     # bad
@@ -53,7 +53,7 @@ First reed [Ruby Style Guide] (https://github.com/bbatsov/ruby-style-guide)
 
     # good
     def full_name
-    ```
+    ```    
     
 # Rspec
 
