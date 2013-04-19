@@ -29,7 +29,7 @@ First reed [Ruby Style Guide] (https://github.com/bbatsov/ruby-style-guide)
     buttons = "#{ok_button} #{cancel_button} #{abort_button}"
     
     # good
-    buttons = [ok_button, cancel_button, abort_button].join(" ")
+    buttons = [ok_button, cancel_button, abort_button].join(' ')
     ``` 
   
 * Use positive conditions whenever it's possible
@@ -116,3 +116,17 @@ First reed [Ruby Style Guide] (https://github.com/bbatsov/ruby-style-guide)
     // good
     function findUserProfile()
     ```
+    
+* Add a namespace to your variables and functions
+
+    ```Javascript
+    // bad
+    var filters = ['email', 'name', 'timestamp']
+    function applyFilter() { ... }
+    
+    # good
+    CoachCatalog = function() {}
+    CoachCatalog.filters = ['email', 'name', 'timestamp']
+    CoachCatalog.applyFilter = function() { ... }
+    ```
+    
