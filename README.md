@@ -124,7 +124,7 @@ First reed [Ruby Style Guide] (https://github.com/bbatsov/ruby-style-guide)
     var filters = ['email', 'name', 'timestamp']
     function applyFilter() { ... }
     
-    # good
+    // good
     CoachCatalog = function() {}
     CoachCatalog.filters = ['email', 'name', 'timestamp']
     CoachCatalog.applyFilter = function() { ... }
