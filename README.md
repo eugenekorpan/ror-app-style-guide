@@ -139,6 +139,15 @@ First reed [Ruby Style Guide] (https://github.com/bbatsov/ruby-style-guide)
     // good
     function hi() {...}
     ```
+    
+* Declare local variables with `var`
+
+    ```Javascript
+    // bad
+    emails = [];
+    
+    // good
+    var emails = [];
 
 # CSS
 
