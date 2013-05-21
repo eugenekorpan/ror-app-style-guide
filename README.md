@@ -9,8 +9,13 @@ The same with the ROR app. Image Crane, Pike and Crayfish began coding. What cod
 Every project may have it's own code style but all developers on the project must follow same conventions.
 Otherwise the variable `get_UserProfile` will be the smallest surprise along all those things you find in the code.
 
+# Code Smell
+Code Smell is any symptom in the source code of a program that possibly indicates a deeper problem. Code smells are usually not bugs—they are not technically incorrect and don't currently prevent the program from functioning. Instead, they indicate weaknesses in design that may be slowing down development or increasing the risk of bugs or failures in the future.
+
+[List of Code Smells in Ruby] (https://docs.google.com/spreadsheet/ccc?key=0Anl_DlumkLHhdEtGQ0JHdUFhTG4tcGxldTJEbGZ1NXc&usp=sharing)
+
 # Ruby
-First reed [Ruby Style Guide] (https://github.com/bbatsov/ruby-style-guide)
+First read [Ruby Style Guide] (https://github.com/bbatsov/ruby-style-guide)
 
 * Use double quotes for strings only when you use string interpolation
 
