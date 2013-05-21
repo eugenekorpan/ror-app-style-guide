@@ -10,7 +10,7 @@ Every project may have it's own code style but all developers on the project mus
 Otherwise the variable `get_UserProfile` will be the smallest surprise along all those things you find in the code.
 
 # Code Smell
-Code Smell is any symptom in the source code of a program that possibly indicates a deeper problem. Code smells are usually not bugs—they are not technically incorrect and don't currently prevent the program from functioning. Instead, they indicate weaknesses in design that may be slowing down development or increasing the risk of bugs or failures in the future.
+Code Smell is any symptom in the source code of a program that possibly indicates a deeper problem. Code smells are usually not bugs—they are not technically incorrect and don't currently prevent the program from functioning. Instead, they indicate weaknesses in design that may be slowing down development or increasing the risk of bugs or failures in the future. [Read more on Wikipedia] (http://en.wikipedia.org/wiki/Code_smell).
 
 [List of Code Smells in Ruby] (https://docs.google.com/spreadsheet/ccc?key=0Anl_DlumkLHhdEtGQ0JHdUFhTG4tcGxldTJEbGZ1NXc&usp=sharing)
 
