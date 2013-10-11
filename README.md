@@ -2,7 +2,7 @@
 
 What are you thinking about seeing variable `get_UserProfile` in the code?
 
-I think everybody remember [this story] (http://freelance.ru/img/portfolio/pics/00/04/EF/323514.jpg). It's ok for Crane to fly, it's ok for Pike to swim and Crayfish to walk on the ground but when they unite for a common goal they won't get success using only own skills.
+I think everybody remember [this story] (http://ocka3ke.ru/sites/default/files/styles/large_tale/public/lebed_shchuka_i_rak_2.jpg?itok=LiKKkBQp). It's ok for Crane to fly, it's ok for Pike to swim and Crayfish to walk on the ground but when they unite for a common goal they won't get success using only own skills.
 
 The same with the ROR app. Image Crane, Pike and Crayfish began coding. What code would they get at the end?
 
